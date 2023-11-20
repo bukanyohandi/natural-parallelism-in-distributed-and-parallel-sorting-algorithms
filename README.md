@@ -18,4 +18,4 @@ sbatch sbatch-perf.sh
 squeue -o "%.18i %.9P %.25j %.9u %.2t %.10M %.6D %R"
 ```
 
-By default, the above commands will execute each of the sorting algorithms with a randomized vector sizing $10^8$, except for Odd-Even Sort for which the vector size is $2 \cddot 10^5$. If one wish to test other size of vectors, one can simply modify the appropriate scripts located in sbatch.sh . It is suggested to put few extension for the submitted batch job (at least 12 minutes). Upon completion, one can find out the correctness report along with the execution time of the sorting algorithm in the same directory.
+By default, the above commands will execute each of the sorting algorithms with a randomized vector sizing $10^8$, except for Odd-Even Sort for which the vector size is $2 \cdot 10^5$. If one wish to test other size of vectors, one can simply modify the appropriate scripts located in sbatch.sh . It is suggested to put few extension for the submitted batch job (at least 12 minutes). Upon completion, one can find out the correctness report along with the execution time of the sorting algorithm in the same directory.
